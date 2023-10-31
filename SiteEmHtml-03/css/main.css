@@ -1,0 +1,87 @@
+       /* So podem existir codigos CSS dentro do Style
+            ----------------------------------
+            folha de estilo criada em 09/08/23
+            ----------------------------------
+
+            Uma folha de estilos possui regras CSS. Toda regra CSS começa com um seletor...
+        
+        */
+       
+        :root {
+           --corPrim: #090086;
+           --corSec: #ff1e00;
+           --estiloBorda: solid;
+           --espacoMargem: 15px;
+       }
+       
+       body {
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-size: 18px;
+       }
+       
+       h1 {
+           font-size: 26px;
+           color: var(--corSec)
+       }
+       
+       h2 {
+           font-size: 22px;
+           color: #090086;
+       }
+       
+       a {
+           color: #ff1e00;
+           font-weight: 5px;
+       }
+       
+       a:hover {
+           color: #f0e441
+       }
+       
+       img {
+           float: right;
+           /* border-width: 13px;
+            border-style:  solid;
+            border-color: #090086; */
+           border: 5px solid #090086;
+           padding: 5px;
+           /* margin: 30px; */
+           margin: 0px, 8px, 15px, 5px
+       }
+       /* strong{
+            background-color: yellow;
+        } */
+       
+       address strong {
+           background-color: yellow;
+       }
+       
+       ul li a {
+           background-color: #7ed0ff;
+       }
+       
+       .links-especiais {
+           color: #ff1e00;
+       }
+       /* seletor de ID */
+       
+       #titulo-geral {
+           background-color: #8f8a8a;
+           padding: 10px;
+       }
+       
+       #id {
+           background-color: black;
+       }
+       
+       .class {
+           background-color: rgb(255, 0, 0);
+       }
+       
+       body {
+           background-color: rgb(0, 255, 13);
+       }
+
+       
+
+

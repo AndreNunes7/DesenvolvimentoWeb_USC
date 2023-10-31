@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form method="post" action="https://professores.unisanta.br/sobrino/scripts/mostra-v2.php">
+        <h1>Contato</h1>
+        <p>
+
+            <label for="email" name="email"><strong>Email:<br></strong><input type="email" id="email" name="email" size="30"  placeholder="email"></label><br>
+
+            <label for="telefone" name="telefone"><strong><br>Telefone:<br></strong><input type="tel" id="telefone" name="telefone" size="30" maxlength="11" placeholder=""></label>
+
+
+        </p>
+
+        <p>
+            <label for=""><strong>Sugestões</strong> </label><br>
+            <textarea name="sugestoes" id="sugestoes" rows="10" cols="35">
+
+
+            </textarea>
+        </p>
+
+        <label for="escolaridade"><strong>Escolaridade</strong></label><br>
+
+        <select name="escolaridade" id="escolaridade" required>
+            <option value="">
+                Selecione...
+            </option>
+            <option value="ef">
+                Ensino fundamental
+            </option>
+            <option value="em">
+                Ensino médio
+            </option>
+            <option value="et">
+                Ensino técnico
+            </option>
+            <option value="es">
+                Ensino superior
+            </option>
+            <option value="ps">
+                Pós-graduação
+            </option>
+            
+            
+
+        </select>
+
+        <br><br>
+
+        <fieldset>
+
+            <legend>
+                Você é aluno da Unisanta?
+            </legend>
+
+                <input type="radio" name="aluno-unisanta" value="s"><label for="" id="aluno-unisanta-s">Sim</label>
+                <input type="radio" name="aluno-unisanta" value="n" ><label for="" id="aluno-unisanta-n">Não</label>
+
+            
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>Indique suas linguagens favoritas</strong></legend>
+
+            <input type="checkbox" name="linguagem" value="js" id="linguagem-js"><label for="linguagem-js" >JavaScript</label>
+
+            <input type="checkbox" name="linguagem" value="Py" id="linguagem-py"><label for="linguagem-py" >Python</label>
+
+            <input type="checkbox" name="linguagem" value="html/css" id="linguagem-html/css"><label for="linguagem-html/css" >Html/css</label>
+
+            <input type="checkbox" name="linguagem" value="ruby" id="linguagem-ruby"><label for="linguagem-ruby" >Ruby</label>
+
+            <input type="checkbox" name="linguagem" value="c#" id="linguagem-c#"><label for="linguagem-c#" >C#</label>
+
+        </fieldset>
+
+
+        <p>
+            <button>Entrar</button>
+        </p>
+        
+       
+
+
+    </form>
+</body>
+</html>

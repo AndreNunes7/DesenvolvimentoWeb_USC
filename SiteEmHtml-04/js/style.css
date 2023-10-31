@@ -1,0 +1,53 @@
+body,
+        
+select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+
+fieldset {
+
+    
+    font-weight: normal;
+    width: 400px;
+    height: 45px;
+
+
+}
+
+
+textarea {
+    width: 350px;
+    height: 150s;
+    resize: none;
+
+}
+
+#enviar {
+    
+    padding: 30px;
+    background: rgb(85, 1, 1);
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    margin: 10px ;
+
+    
+}
+
+
+#enviar:hover{
+    background-color: rgb(17, 3, 3);
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: #c1ec00;
+}
+
+a {
+    font-weight: 100;
+}
+

@@ -1,0 +1,50 @@
+Obs: o seletor de ID so pode ser aplicado em um elemento na pagina, mais de um == ERRO
+
+seletores:
+	|
+	-----> de tipo Ex: Body, h1, h2, p, ul, a, img
+	|
+	-----> ranking: 1°id, 2°class, 3°body ( !important = define aquele que foi atribuido essa função o ranking maximo)
+	
+
+Combinador de descendentes:
+			  |
+			  -----> Ex: address strong{}
+
+
+
+seletor de classes:
+		  |
+		  -----> class="links-especiais", .links-especiais{}
+
+
+
+
+seletor de ID:
+	     |
+	     -----> começa com #  Ex: #meu-id {}
+	     
+
+
+
+sites aula: canIuse.com, jigsaw.validador.com, statcounter
+
+
+
+pseudo classe:
+	     |
+	     -----> a:hover{}
+
+
+
+
+estilo inline:
+	     |
+	     -----> Ex: body{ style="color" } = especificidade com maior força entre as outras 3
+
+
+
+:root
+     |
+     -----> serve para atribuir/definir uma variavel EX :root { --corPrim: #090086;} usando no h1: h1{color: var(--corPrim)}
+	
